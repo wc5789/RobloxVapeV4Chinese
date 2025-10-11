@@ -1231,7 +1231,7 @@ run(function()
 	Hooks.ViewportPointToRay = Hooks.ScreenPointToRay
 
 	SilentAim = vape.Categories.Combat:CreateModule({
-		Name = 'SilentAim',
+		Name = '静默瞄准',
 		Function = function(callback)
 			if CircleObject then
 				CircleObject.Visible = callback and Mode.Value == 'Mouse'
