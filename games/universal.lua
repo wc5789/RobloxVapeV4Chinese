@@ -1334,7 +1334,7 @@ run(function()
 	})
 	Target = SilentAim:CreateTargets({Players = true})
 	Mode = SilentAim:CreateDropdown({
-		Name = 'Mode',
+		Name = '模式',
 		List = {'Mouse', 'Position'},
 		Function = function(val)
 			if CircleObject then
@@ -1363,7 +1363,7 @@ run(function()
 	})
 	IgnoredScripts = SilentAim:CreateTextList({Name = 'Ignored Scripts'})
 	Range = SilentAim:CreateSlider({
-		Name = 'Range',
+		Name = '范围',
 		Min = 1,
 		Max = 1000,
 		Default = 150,
@@ -1377,21 +1377,21 @@ run(function()
 		end
 	})
 	HitChance = SilentAim:CreateSlider({
-		Name = 'Hit Chance',
+		Name = '击中概率',
 		Min = 0,
 		Max = 100,
 		Default = 85,
 		Suffix = '%'
 	})
 	HeadshotChance = SilentAim:CreateSlider({
-		Name = 'Headshot Chance',
+		Name = '爆头概率',
 		Min = 0,
 		Max = 100,
 		Default = 65,
 		Suffix = '%'
 	})
 	AutoFire = SilentAim:CreateToggle({
-		Name = 'AutoFire',
+		Name = '自动开火',
 		Function = function(callback)
 			AutoFireShootDelay.Object.Visible = callback
 			AutoFireMode.Object.Visible = callback
@@ -1428,7 +1428,7 @@ run(function()
 		Visible = false,
 		Darker = true
 	})
-	Wallbang = SilentAim:CreateToggle({Name = 'Wallbang'})
+	Wallbang = SilentAim:CreateToggle({Name = '穿墙模式'})
 	SilentAim:CreateToggle({
 		Name = 'Range Circle',
 		Function = function(callback)
