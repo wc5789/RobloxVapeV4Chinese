@@ -1430,7 +1430,7 @@ run(function()
 	})
 	Wallbang = SilentAim:CreateToggle({Name = '穿墙模式'})
 	SilentAim:CreateToggle({
-		Name = 'Range Circle',
+		Name = '范围圆圈',
 		Function = function(callback)
 			if callback then
 				CircleObject = Drawing.new('Circle')
@@ -1810,7 +1810,7 @@ run(function()
 	}
 
 	Fly = vape.Categories.Blatant:CreateModule({
-		Name = 'Fly',
+		Name = '飞行',
 		Function = function(callback)
 			if Platform then
 				Platform.Parent = callback and gameCamera or nil
@@ -2096,7 +2096,7 @@ run(function()
 	end
 	
 	HighJump = vape.Categories.Blatant:CreateModule({
-		Name = 'HighJump',
+		Name = '高跳',
 		Function = function(callback)
 			if callback then
 				if AutoDisable.Enabled then
@@ -2144,7 +2144,7 @@ run(function()
 	local modified = {}
 	
 	HitBoxes = vape.Categories.Blatant:CreateModule({
-		Name = 'HitBoxes',
+		Name = '打击碰撞箱',
 		Function = function(callback)
 			if callback then
 				repeat
@@ -2287,7 +2287,7 @@ run(function()
 	end
 	
 	Invisible = vape.Categories.Blatant:CreateModule({
-		Name = 'Invisible',
+		Name = '隐身',
 		Function = function(callback)
 			if callback then
 				if not proper then
