@@ -8,13 +8,13 @@
 <h2 align="center">
   一个完全从零构建的 Roblox 脚本，精准满足您的需求！
   <br/>
-  在保持绝对不可追踪的同时，直冲顶峰。
+  在保持绝对不可追上的同时，直冲巅峰。
 </h2>
 
 > **📌 中文版说明**  
 > 本 README 为原项目 [VapeV4ForRoblox](https://github.com/7GrandDadPGN/VapeV4ForRoblox) 的完整中文翻译版本，内容严格遵循原文，仅作语言转换。  
 > **原作者**：[7GrandDad](https://github.com/7GrandDadPGN)（项目主要维护者）  
-> **中文版翻译及二改作者**：请在此处填写您的名称（或 GitHub 用户名）
+> **中文版翻译及二改作者**：
 
 ---
 
