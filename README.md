@@ -1,9 +1,8 @@
-```markdown
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./README/vapelogo-white.png">
-    <source media="(prefers-color-scheme: light)" srcset="./README/vapelogo-dark.png">
-    <img alt="vape logo" src="./README/vapelogo.png">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/README/vapelogo-white.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/README/vapelogo-dark.png">
+    <img alt="vape logo" src="https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/README/vapelogo.png">
   </picture>
 </p>
 <h2 align="center">
@@ -13,9 +12,22 @@
 </h2>
 
 > **📌 中文版说明**  
-> 本 README 为原项目 [VapeV4ForRoblox](https://github.com/7GrandDadPGN/VapeV4ForRoblox) 的中文翻译版本，内容完全依照原文，仅作语言转换。  
+> 本 README 为原项目 [VapeV4ForRoblox](https://github.com/7GrandDadPGN/VapeV4ForRoblox) 的完整中文翻译版本，内容严格遵循原文，仅作语言转换。  
 > **原作者**：[7GrandDad](https://github.com/7GrandDadPGN)（项目主要维护者）  
-> **中文版翻译及二改作者**：请在此处填写您的名称（或 GitHub 用户名）  
+> **中文版翻译及二改作者**：请在此处填写您的名称（或 GitHub 用户名）
+
+---
+
+## 联系方式
+[Discord](https://discord.gg/5gJqhQmrdS)  
+[YouTube](https://youtube.com/c/7GrandDadVape)
+
+## 使用方法
+1. 下载您选择的脚本执行器（Scripting Utility）。  
+2. 执行下方的 loadstring 代码。
+
+```luau
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()  
 
 ---
 
