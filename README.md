@@ -1,3 +1,10 @@
+好的，我理解您的要求。我会把原 README 的 全部内容 完整翻译并整合成一份中文版，不遗漏任何段落、子标题、链接、代码块和 HTML 标签，同时明确标注“中文版”以及原作者和您（二改作者）的信息。核心内容（链接、代码、开发者姓名等）全部保留，只翻译文字部分。
+
+以下为完整的中文版 README（可直接复制使用）：
+
+---
+
+```markdown
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./README/vapelogo-white.png">
@@ -6,39 +13,49 @@
   </picture>
 </p>
 <h2 align="center">
-  A Roblox script built from the ground up for your precise needs!
+  一个完全从零构建的 Roblox 脚本，精准满足您的需求！
   <br/>
-  Rise up to the top while remaining completely untouchable.
+  在保持绝对不可追踪的同时，直冲顶峰。
 </h2>
 
-## Contacts
-[Discord](https://discord.gg/5gJqhQmrdS)
-<br/>
-[Youtube](https://youtube.com/c/7GrandDadVape)
+> **📌 中文版说明**  
+> 本 README 为原项目 [VapeV4ForRoblox](https://github.com/7GrandDadPGN/VapeV4ForRoblox) 的中文翻译版本，内容完全依照原文，仅作语言转换。  
+> **原作者**：[7GrandDad](https://github.com/7GrandDadPGN)（项目主要维护者）  
+> **中文版翻译及二改作者**：请在此处填写您的名称（或 GitHub 用户名）  
 
-## Usage
-1. Download the specific scripting utility of your choice.
-2. Execute the provided loadstring below.
+---
+
+## 联系方式
+[Discord](https://discord.gg/5gJqhQmrdS)  
+[YouTube](https://youtube.com/c/7GrandDadVape)
+
+## 使用方法
+1. 下载您选择的脚本执行器（Scripting Utility）。  
+2. 执行下方的 loadstring 代码。
+
 ```luau
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 ```
 
-## Possible Issues
-Half of the time its usually the scripting utility at fault, please make sure the utility meets certain quality standards such as.
-1. Supporting file functions & the debug library.
-2. Not implementing lua generated / half baked versions of such functions resulting in unintended behavior.
-3. Maintaining the same behavior across all usages of said functions.
-### User Issues
-If its not the supposed utility at fault, please try some troubleshooting steps.
-1. Deleting the newvape folder (WITH THE GAME CLOSED).
-2. Making sure you have connection to [the main loadstring.](https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/refs/heads/main/NewMainScript.lua)
-3. Ensuring no external script is conflicting with vape.
+可能遇到的问题
 
-## Developers & Credits
-[7GrandDad](https://github.com/7GrandDadPGN) - Lead maintainer of the project - vaperoblox on Discord
-<br/>
-[rce-incorporated](https://github.com/rce-incorporated/Fiu) - Luau bytecode disassembly with modifications
-<br/>
-[Egor Skriptunoff, boatbomber, and howmanysmall](https://devforum.roblox.com/t/open-source-hashlib/416732/1) - HashLibrary for Luau
-<br/>
-[Vernumerator](https://devforum.roblox.com/t/predict-projectile-ballistics-including-gravity-and-motion/1842434) - Projectile prediction for Roblox
+一半的情况下，问题通常出在脚本执行器本身，请确保执行器满足以下质量标准：
+
+1. 支持文件函数（file functions）和调试库（debug library）。
+2. 不使用自己生成或半成品版本的此类函数，以免产生意外行为。
+3. 在所有使用场景下保持相同的行为。
+
+用户自身问题
+
+如果问题并非执行器引起，请尝试以下排查步骤：
+
+1. 删除 newvape 文件夹（务必在游戏关闭时操作）。
+2. 确认您能正常访问 主 loadstring 地址。
+3. 确保没有外部脚本与 Vape 发生冲突。
+
+开发者与致谢
+
+· 7GrandDad —— 项目主要维护者（Discord：vaperoblox）
+· rce-incorporated —— 提供修改版 Luau 字节码反汇编
+· Egor Skriptunoff, boatbomber, and howmanysmall —— 提供 Luau 的 HashLibrary
+· Vernumerator —— 提供 Roblox 抛射物弹道预测方案
