@@ -14,7 +14,7 @@
 > **📌 中文版说明**  
 > 本 README 为原项目 [VapeV4ForRoblox](https://github.com/7GrandDadPGN/VapeV4ForRoblox) VapeV4脚本的完整中文翻译版本，内容严格遵循原文，仅作语言转换  
 > **原作者**：[7GrandDad](https://github.com/7GrandDadPGN)（项目主要维护者）  
-> **中文版翻译及二改作者**：https://github.com/5789
+> **中文版翻译及二改作者**：https://github.com/wc5789
 
 ---
 
