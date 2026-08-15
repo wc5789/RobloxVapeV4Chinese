@@ -13,35 +13,24 @@
 
 > **📌 中文版说明**  
 > 本 README 为原项目 [VapeV4ForRoblox](https://github.com/7GrandDadPGN/VapeV4ForRoblox) VapeV4脚本的完整中文翻译版本，内容严格遵循原文，仅作语言转换  
-> **原作者**：[7GrandDad](https://github.com/7GrandDadPGN)（项目主要维护者）  
-> **中文版翻译及二改作者**：https://github.com/wc5789
+> **原作者**：[7GrandDad](https://github.com/7GrandDadPGN)（项目主要作者）  
+> **中文版翻译+二改**：https://github.com/wc5789
 
 ---
 
-## 联系方式
+## 联系方式 原作者
 [Discord](https://discord.gg/5gJqhQmrdS)  
 [YouTube](https://youtube.com/c/7GrandDadVape)
 
 ## 使用方法
-1. 下载您选择的脚本执行器（Scripting Utility）。  
-2. 执行下方的 loadstring 代码。
+1.下载Roblox脚本执行器。  
+2.执行下方的 loadstring 代码。
 
 ```luau
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()  
 
 ---
 
-## 联系方式
-[Discord](https://discord.gg/5gJqhQmrdS)  
-[YouTube](https://youtube.com/c/7GrandDadVape)
-
-## 使用方法
-1. 下载您选择的脚本执行器（Scripting Utility）。  
-2. 执行下方的 loadstring 代码。
-
-```luau
-loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-```
 
 可能遇到的问题
 
@@ -65,3 +54,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4Fo
 · rce-incorporated —— 提供修改版 Luau 字节码反汇编
 · Egor Skriptunoff, boatbomber, and howmanysmall —— 提供 Luau 的 HashLibrary
 · Vernumerator —— 提供 Roblox 抛射物弹道预测方案
+· wc5789 —— 进行了中文翻译和二改（只修改了语言）
